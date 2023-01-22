@@ -10,7 +10,7 @@ Licensed under the MIT License (view LICENSE.md for more information)
 <html>
 
 <head>
-    <title>GBA Online</title>
+    <title>[😶‍🌫️] Emulador ₥₳Ɽł₳</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=160">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -38,28 +38,25 @@ Licensed under the MIT License (view LICENSE.md for more information)
 						<img id="logo-small" src="assets/logo-small.png">
 					</a>
 				</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<li>
-					<a target="_blank" style="text-decoration: none;" href="https://github.com/ayvacs/gba.js.org">View Source Code</a>
-				</li>
 				<li>|</li>
-                <li>File
+                <li>Archivos
                     <ul>
                         <li><span>BIOS: </span> <input type="file" id="bios_load" class="files"></li>
-                        <li><span>Game: </span> <input type="file" id="rom_load" class="files"></li>
+                        <li><span>Juego: </span> <input type="file" id="rom_load" class="files"></li>
                     </ul>
                 </li>
-                <li id="play" class="show">Play</li>
-                <li id="pause" class="hide">Pause</li>
-                <li id="restart">Restart</li>
-                <li>Settings
+                <li id="play" class="show">Jugar</li>
+                <li id="pause" class="hide">Pausa</li>
+                <li id="restart">Reiniciar</li>
+                <li>Ajustes
                     <ul>
-                        <li><input type="checkbox" id="skip_boot"> Skip Boot Intro</li>
-                        <li><input type="checkbox" id="toggleSmoothScaling" checked="checked"> Smooth Scaling</li>
-                        <li><input type="checkbox" id="toggleDynamicSpeed"> Dynamic Speed</li>
+                        <li><input type="checkbox" id="skip_boot"> Saltar inicio</li>
+                        <li><input type="checkbox" id="toggleSmoothScaling" checked="checked"> Escalado suave</li>
+                        <li><input type="checkbox" id="toggleDynamicSpeed"> Velocidad dinámica</li>
                         <li><input type="checkbox" id="offthread-cpu" checked="checked"> CPU off-thread</li>
                         <li><input type="checkbox" id="offthread-gpu" checked="checked"> GPU off-thread</li>
-                        <li><input type="checkbox" id="sound"> Sound</li>
-                        <li>GBA Bindings
+                        <li><input type="checkbox" id="sound"> Sonido</li>
+                        <li>Controles GBA
                             <ul>
                                 <li id="key_a"><span>A</span></li>
                                 <li id="key_b"><span>B</span></li>
@@ -73,24 +70,24 @@ Licensed under the MIT License (view LICENSE.md for more information)
                                 <li id="key_right"><span>→</span></li>
                             </ul>
                         </li>
-                        <li>Emulator Bindings
+                        <li>Atajos emulador
                             <ul>
-                                <li id="key_volumeup"><span>Volume Up</span>
+                                <li id="key_volumeup"><span>Subir volumen</span>
                                 </li>
-                                <li id="key_volumedown"><span>Volume Down</span>
+                                <li id="key_volumedown"><span>Bajar volumen</span>
                                 </li>
-                                <li id="key_speedup"><span>Speed Up</span></li>
-                                <li id="key_slowdown"><span>Slow Down</span></li>
-                                <li id="key_speedreset"><span>Speed Reset</span></li>
-                                <li id="key_fullscreen"><span>Fullscreen</span></li>
-                                <li id="key_playpause"><span>Play/Pause</span></li>
-                                <li id="key_restart"><span>Restart</span></li>
+                                <li id="key_speedup"><span>Subir velocidad</span></li>
+                                <li id="key_slowdown"><span>Bajar velocidad</span></li>
+                                <li id="key_speedreset"><span>Reiniciar velocidad</span></li>
+                                <li id="key_fullscreen"><span>Pantalla completa</span></li>
+                                <li id="key_playpause"><span>Jugar/Pausar</span></li>
+                                <li id="key_restart"><span>Reiniciar</span></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    Volume
+                    Volumen
                     <ul>
                         <li>
                             <input type="range" id="volume">
@@ -98,21 +95,21 @@ Licensed under the MIT License (view LICENSE.md for more information)
                     </ul>
                 </li>
                 <li id="saves_menu">
-                    Saves
+                    Partidas guardadas
                     <ul id="saves_menu_container">
-                        <li><span>Import:</span><input type="file" id="import" class="files"></li>
+                        <li><span>Importar:</span><input type="file" id="import" class="files"></li>
                         <li id="existing_saves">
-                            <span>Existing Saves</span>
+                            <span>Partidas existentes</span>
                             <ul id="existing_saves_list">
 
                             </ul>
                         </li>
-                        <li><a href="./" id="export" target="_new">Export All Saves</a></li>
+                        <li><a href="./" id="export" target="_new">Exportar todas las partidas guardadas</a></li>
                     </ul>
                 </li>
-                <li id="fullscreen">Fullscreen</li>
+                <li id="fullscreen">Pantalla completa</li>
                 <li>
-                    <span id="speed">Speed</span>
+                    <span id="speed">Velocidad</span>
                     <ul>
                         <li>
                             <input type="range" id="speedset">
